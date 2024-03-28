@@ -34,7 +34,7 @@ documents = loader.load()
 config_list =[
     {
         "model": "gpt-3.5-turbo-16k",
-        "api_key": "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"
+        "api_key": ["OPEN_API_KEY"]
     }
 ]
 llm_config=  {"config_list": config_list, "seed": 45}
